@@ -22,6 +22,7 @@ let user = {
 //bracket notation
 //console.log(user['title']);
 
+//************COPY
 //copy reference of object not value
 // let sub = user;
 // sub.userid = 'updatedname';
@@ -41,6 +42,7 @@ let user = {
 // console.log(user);
 // console.log(replacement);
 
+//************TRAVERSE
 //Traverse object key: value pairs
 //FOR IN to enumerate objects
 // for (let key in user) {
