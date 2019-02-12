@@ -17,7 +17,7 @@ processUserArrow = (first, last) => {
 //processUser('marc', 'westbrooks');
 //processUserArrow('marc', 'westbrooks');
 
-//Factory function
+//*********** Factory function
 //RETURN OBJ, no 'this' or 'new' keywords
 function car(color, make) {
   return {
@@ -30,7 +30,7 @@ let dn = car('red', 'Honda');
 
 //console.log(dn);
 
-//Constructor function
+//*********** Constructor function
 //NEW keyword is critical
 function Car(_color, _make) {
   //hint to use class with ES6, topic for later
@@ -65,3 +65,18 @@ var x4 = false; // new primitive boolean
 var x5 = []; // new array object
 var x6 = /()/; // new regexp object
 var x7 = function() {}; // new function object
+
+//*********** HOISTING
+//Variable & Function Declarations are moved to the top of the scope before execution
+doIExist(); // Output: "This function has been declared."
+function doIExist() {
+  //function declaration
+  console.log('This function has been declared.');
+}
+
+fun(); //Output: expression is not a function
+//fun was declared, but not assigned.  It's recognized as a variable not a function
+let fun = function() {
+  //function expression,
+  console.log('This function has been initialized.');
+};
