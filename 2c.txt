@@ -1,0 +1,23 @@
+# How / Where does JavaScript run?
+
+    -No longer trapped in the browser
+        Mozilla => SpiderMonkey
+        Chrome => V8
+        IE/ Edge => Chakra
+
+    -Fully capable of running backend / server-side code with Node.JavaScript
+    _________________________________________________________________________
+    |                   |                                                   |
+    |    JavaScript     |           Node Library                            |
+    |________________________________________________________________________
+    |                   |                                                   |
+    |                   |           Bindings (http / fs / etc.)             |
+    |   C / C++         |___________________________________________________|
+    |                   |               |                   |               |
+    |                   |    Chrome v8  |     Event Loop    |       I / O   |
+    |                   |               |                   |               |
+    |_______________________________________________________________________|
+
+
+    BOTTOM LINE:    Node.js is not a language or framework !!
+                    Node.js === Runtime Environment!

@@ -1,0 +1,14 @@
+# Settle the score
+
+ECMASCRIPT                                              JAVASCRIPT
+- European Computer Manufacturer's Association          - PROGRAMMING LANGUAGE that
+                                                            conforms to ECMASCRIPT
+- Sets the STANDARDS / SPECIFICATIONS
+
+
+
+
+    2009                                        2015             2016         2017
+    |---------------------------------------------|-----------------|-------------|-----
+    ES5                                         ES6              ES7          ES8
+(Supported by all browsers)            (Still need polyfills)

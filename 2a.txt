@@ -1,0 +1,6 @@
+# What is JavaScript?
+
+    - One of the most popular and most used languages
+
+    - 2018 Stack Overflow Developer Survey's Most Popular (Tech) Programming Language
+
