@@ -1,0 +1,13 @@
+# Primitive Types : immutable values
+    - string
+    - number
+    - boolean literals
+
+The values are immutable... not the variable....
+
+
+
+# Reference types: mutable types
+    - objects
+    - arrays
+    - functions

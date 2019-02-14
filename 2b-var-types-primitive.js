@@ -1,9 +1,7 @@
 /************************
- * Primitive Types : immutable values
-    hover over variable name to see dynamic value type
-    string, number, & boolean literals
+ * hover over variable name to see dynamic value type
  ************************
-*/
+ */
 let role = 'developer'; //string
 console.log(typeof role);
 
