@@ -1,0 +1,13 @@
+
+1.  Install webpack-cli globally => npm i -g webpack-cli
+2.  Create project directory => webpack-cli init
+        2a. No Multiple Bundles
+        2b. Defaults: ./src/index
+        2c. Dist default build directory
+        2d. No CSS
+        2e. Install packages: babel, uglify, etc.
+3.  Create .gitignore => node_modules
+4.  Create packages.json => npm init --yes
+        4a.  Add build script to packages.json =>  "build": "webpack -w",
+        4b. Run build => npm run build
+5.  Add build js file to index.html
