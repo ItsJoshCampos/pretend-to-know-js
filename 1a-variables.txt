@@ -1,0 +1,16 @@
+# Naming Convention & Rules
+
+Can't start w a number                  =>  1name
+
+
+No hyphens                              => first-name
+
+
+Pascal Camel Case                       => String, Int, Date
+Class(ES6), Data Types, Constructors
+
+
+Camel Case                              => getUser(); login(user); logout(user);
+Functon Names
+
+
