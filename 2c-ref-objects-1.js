@@ -9,6 +9,7 @@ let user = {
   }
 };
 
+//************ ACCESS
 //Dot notation  **best practice
 console.log(user.userid);
 user.checkIn();

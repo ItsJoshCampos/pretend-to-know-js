@@ -1,0 +1,8 @@
+# Modules
+
+- ES6 Enhancement
+- Breaking up our js files into groups
+- ABSTRACTION IN THE JS WORLD
+
+- es5 support for Modules
+- Commons.js => Node.js
